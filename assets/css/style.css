@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'alireza-home';
+    src:    url('../font/alireza-home.eot?v8og4d');
+    src:    url('../font/alireza-home.eot?v8og4d#iefix') format('embedded-opentype'),
+        url('../font/alireza-home.ttf?v8og4d') format('truetype'),
+        url('../font/alireza-home.woff?v8og4d') format('woff'),
+        url('../font/alireza-home.svg?v8og4d#alireza-home') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: #028a7c;
+	clear:both;
+}
+
+.avatar {
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #f5f8f6;
+	box-shadow: -1px 1px 5px;
+}
+
+.name {
+	font-size: 2.1em;
+	text-align: center;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.aboutAlireza {
+	text-align: center;
+}
+
+.aboutAlireza p {
+	font-size: .55em;
+	color: rgba(147, 208, 197, .7);
+	font-family: 'Montserrat', sans-serif;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'alireza-home' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Alireza! You can take your neccessary (hum? :D) from here! */
+
+.icon-circle:before {
+    content: "\e917";
+}
+
+.icon-embed:before {
+    content: "\e900";
+}
+
+.icon-mail:before {
+    content: "\e911";
+}
+
+.icon-google-plus:before {
+    content: "\e901";
+}
+
+.icon-hangouts:before {
+    content: "\e902";
+}
+
+.icon-facebook:before {
+    content: "\e903";
+}
+
+.icon-instagram:before {
+    content: "\e904";
+}
+
+.icon-whatsapp:before {
+    content: "\e905";
+}
+
+.icon-spotify:before {
+    content: "\e906";
+}
+
+.icon-telegram:before {
+    content: "\e907";
+}
+
+.icon-twitter:before {
+    content: "\e908";
+}
+
+.icon-vimeo:before {
+    content: "\e909";
+}
+
+.icon-dropbox:before {
+    content: "\e90a";
+}
+
+.icon-github:before {
+    content: "\e90b";
+}
+
+.icon-blogger:before {
+    content: "\e90c";
+}
+
+.icon-tux:before {
+    content: "\e912";
+}
+
+.icon-appleinc:before {
+    content: "\e913";
+}
+
+.icon-finder:before {
+    content: "\e914";
+}
+
+.icon-android:before {
+    content: "\e90d";
+}
+
+.icon-windows:before {
+    content: "\e915";
+}
+
+.icon-soundcloud:before {
+    content: "\e90e";
+}
+
+.icon-skype:before {
+    content: "\e916";
+}
+
+.icon-linkedin:before {
+    content: "\e90f";
+}
+
+.icon-delicious:before {
+    content: "\e910";
+}
+
+.liga {
+    width: 80%;
+    width: calc(100% - 2.5em);
+}
+
+.social {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.social a {
+    padding: 0;
+    font-size: 25px;
+    color: #bbb;
+    margin:4px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #BBB;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 53px;
+}
+.social:focus{
+    outline:none;
+    color:#ffffff;
+    border-color:#ffffff;
+}
+.social a:hover{
+    color:#ffffff;
+    border-color:#ffffff;
+}
+
+.i-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
